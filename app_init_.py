@@ -9,6 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 # create the app
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../onpuscores.db'
+app.config['instance_relative_config'] = False
 db = SQLAlchemy(app)
 
 per_page = 30
