@@ -11,7 +11,7 @@ app = Flask(__name__,instance_relative_config=False)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./onpuscores.db'
 
 db = SQLAlchemy(app)
-
+print("test")
 per_page = 30
 
 import rootes
