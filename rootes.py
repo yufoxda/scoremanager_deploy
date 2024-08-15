@@ -1,4 +1,4 @@
-from app_init_ import app,db,per_page
+from app_init_ import app,db
 from database.createSQL import Book, Song, Author, PublishURL
 from flask import render_template, request, url_for
 from flask_sqlalchemy import pagination 
