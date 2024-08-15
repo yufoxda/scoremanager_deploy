@@ -52,4 +52,3 @@ class PublishURL(Base):
     song = relationship('Song', back_populates='publish_urls')
 
 # メタデータの作成
-Base.metadata.create_all(engine)
