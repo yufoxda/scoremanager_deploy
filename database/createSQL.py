@@ -3,7 +3,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 from datetime import datetime
 
 # エンジンを作成
-engine = create_engine('sqlite:///onpuscores.db', echo=True)
+engine = create_engine('sqlite:///./var/app_init_-instance/onpuscores.db', echo=True)
 
 # ベースクラスを定義
 Base = declarative_base()
