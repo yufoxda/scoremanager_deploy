@@ -13,4 +13,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///onpuscores.db'
 
 db = SQLAlchemy(app)
 
+per_page = 30
+
 import rootes
